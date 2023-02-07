@@ -11,4 +11,4 @@ while True:
     producer.send(TOPIC_NAME, b'HELLO')
     producer.flush()
 
-    time.sleep(2)
+    time.sleep(1)
