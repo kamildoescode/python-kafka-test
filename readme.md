@@ -13,6 +13,6 @@ in this example:
     - --from-beginning will read all messages, not only updates
     
     
-# Enabling to post to multiple topics
+# Enabling post to multiple topics
 To do that would have to pass the topic in the request and during message production stage broadcast to this topic.
-If a topic used doesn't exist it would create one with replication-factor 1
+If a topic used doesn't exist it would create one with replication-factor 1 (default)
